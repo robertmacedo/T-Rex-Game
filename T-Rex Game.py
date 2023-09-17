@@ -29,6 +29,7 @@ def Exibe_Mensagem(MSG, Tamanho, Cor):
     Formatação = Fonte.render(Mensagem, True, Cor)
     return Formatação
 
+
 #ÁUDIO
 '''CONFIGURAÇÕES DE SOM:'''
 pygame.mixer.init()
