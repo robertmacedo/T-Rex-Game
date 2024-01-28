@@ -190,6 +190,7 @@ Obstáculos = pygame.sprite.Group()
 Obstáculos.add(Cacto)
 Obstáculos.add(Pterossauro)
 
+'''LAÇO DE REPETIÇÃO PARA MANTER A TELA DO JOGO ABERTA:'''
 while True: 
     '''DEFININDO VELOCIDADE DO JOGO:'''
     Velocidade_do_Jogo = pygame.time.Clock()
